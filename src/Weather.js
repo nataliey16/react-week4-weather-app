@@ -57,6 +57,16 @@ export default function Weather() {
           <input type="submit" value="Submit"></input>
         </form>
         <div>{render}</div>
+        <p>
+          <a
+            href="https://github.com/nataliey16/react-week4-weather-app.git"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>{" "}
+          by Natalie Yeung
+        </p>
       </div>
     );
   } else {
@@ -82,6 +92,16 @@ export default function Weather() {
             visible={true}
           />
         </div>
+        <p>
+          <a
+            href="https://github.com/nataliey16/react-week4-weather-app.git"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>{" "}
+          by Natalie Yeung
+        </p>
       </div>
     );
   }

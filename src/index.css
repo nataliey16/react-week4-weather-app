@@ -16,6 +16,10 @@ code {
   text-align: left;
 }
 
-.Weather form {
-  text-align: left;
+.Weather p {
+  font-size: 12px;
+}
+
+.Weather a {
+  color: white;
 }
